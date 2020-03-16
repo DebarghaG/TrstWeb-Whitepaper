@@ -1,0 +1,629 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>TrstWeb Whitepaper</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.1b62728e.css">
+      
+      
+    
+    
+      <script src="assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#the-internet-landscape" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="." title="TrstWeb Whitepaper" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              TrstWeb Whitepaper
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Home
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="." title="TrstWeb Whitepaper" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    TrstWeb Whitepaper
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="." title="Home" class="md-nav__link md-nav__link--active">
+      Home
+    </a>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      1 Establishing Consensus
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        1 Establishing Consensus
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="1_Establishing_Consensus/1_TrstWeb-as-a-distributed-system/" title="The TrstWeb as a Distributed System" class="md-nav__link">
+      The TrstWeb as a Distributed System
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="1_Establishing_Consensus/2_Consensus_Protocol/" title="Understading Consensus" class="md-nav__link">
+      Understading Consensus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="1_Establishing_Consensus/3_Flexible Trust/" title="Flexible Trust" class="md-nav__link">
+      Flexible Trust
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="1_Establishing_Consensus/4_Voting/" title="Voting" class="md-nav__link">
+      Voting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="1_Establishing_Consensus/5_SPEC/" title="TrstConsensus Spec" class="md-nav__link">
+      TrstConsensus Spec
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      2 Secure Data
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        2 Secure Data
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="2_Secure Data/Data/" title="Local Data" class="md-nav__link">
+      Local Data
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="2_Secure Data/Digital_Security/" title="Verifying Authenticity" class="md-nav__link">
+      Verifying Authenticity
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="2_Secure Data/Merkle_Trees/" title="Merkle Trees" class="md-nav__link">
+      Merkle Trees
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="2_Secure Data/OffChainData/" title="OffChainData" class="md-nav__link">
+      OffChainData
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      3 Accessible Compute Infrastructure
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        3 Accessible Compute Infrastructure
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="3_Accessible_Compute_Infrastructure/5_ParallelCompute/" title="Compute Middleware" class="md-nav__link">
+      Compute Middleware
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      4 TrstApps
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        4 TrstApps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="4_TrstApps/3_Apps/" title="Verifiable and Non-Censorable Applications" class="md-nav__link">
+      Verifiable and Non-Censorable Applications
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      5 Philosophy
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        5 Philosophy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="5_Philosophy/0_Philosophy/" title="Philosophy of our Design Decisions" class="md-nav__link">
+      Philosophy of our Design Decisions
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Previous Works and Citations
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Previous Works and Citations
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="Previous Works and Citations/9_citations/" title="Citations" class="md-nav__link">
+      Citations
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 style="font-size:48px;" align="center">
+  TrstWeb Whitepaper v0.2
+</h1>
+
+<h4 align="center">
+  Debargha Ganguly<br>
+  d@dtlabsindia.com
+  <br><br>
+</h4>
+
+<p style="font-size:16px;" align="center"><i>TrstWeb's mission is to enable a simple, fair, and globally scalable infrastructure for applications, data and compute.</i></p>
+
+<p><br></p>
+<h1 align="center"><b>Abstract</b></h1>
+
+<p align="justify" align="center"><i>
+A decentralised ecosystem would be capable of providing unrestricted access to applications, secure data storage and compute capability, without relying heavily on a few &#39;gate-keepers&#39; of the internet. This would re-democratize the world wide web, putting it&#39;s participant&#39;s interests first. In this paper, working up from the transport layer, we discuss the usage of Federated Byzatine Agreement - amongst nodes to reach consensus, providing secure data, resolving and serving &#39;trustable&#39; applications, and middleware to support high performance parallel computation.</i></p>
+
+<p><br><br><br><br></p>
+<h1 id="the-internet-landscape">The Internet Landscape</h1>
+<p align="justify">The internet started about 4 decades ago, and back then it was almost just another research project. Over the years, it has grown to be something that&#39;s woven into the very fabric of human society and our interactions. The applications and infrastructures have changed a lot since the early days, however the basic protocols about how the internet works still bear an uncanny resemblance to how we started.<sup>[1][2][3]</sup></p>
+
+<p align="justify">Sometime during the 90s, the client server model of building and running applications on the internet was popularised. This pushed the web, and web-based technologies to take off, while being dependent on central figures in the computing industry, until today, when these central figures store private user data, authenticate our credentials and provide essential services.<sup>[4]</sup></p>
+
+<p align="justify">While this model has produced astronomical returns on investment, and venture capital, the waves of start-ups and the rise of the big data companies have made increasing efforts to monetize almost every human activity. The profit motive have become the primary drivers of innovation.<sup>[5]</sup></p>
+
+<p align="justify">On a more abstract level, the design of products by the said central figures in the computing industry are driven by monetary gain to self and investors, there-by pushing users for more consumption, even at the risk of widespread societal impact, such as a generation on the brink of depression.<sup>[6]</sup></p>
+
+<p align="justify">The reliance of the world, at scale, on such centralised technology, results in the exposure to risks that range from the loss of individual user privacy to massive data breaches and mass-control of the populous, to the point of influencing political decisions.<sup>[7]</sup> On the other hand, designing, creating and actually using a decentralised internet is often much more challenging than the previously discussed, traditional client-server model. Nodes in the network must be capable of sending messages for themselves, but they must also be able to route messages across the network, which is more complex, since each node must be able to calculate a route to the destination.</p>
+
+<p align="justify">Considering that each node will need more computational power to handle the additional processing steps needed to participate, security concerns that need extensive testing and scrutiny, and finally the performance and financial issues caused, since nodes would need to spend more and more time routing data rather than performing useful computation, consumer and enterprise technology must be done better. Building such software, individually, outside an ecosystem, is not feasible at scale - as dictated by our experience.</p>
+
+<p align="justify">With more powerful client devices, better networks connecting the world, and the rise of edge computation, the shifting of the tectonic plates towards decentralised computing has begun.  Over the next few decades, by giving back the power of their own data to the people, the power of monetisation of it will shift to users from large scale tech companies which act as data silos.<sup>[9][10]</sup></p>
+
+<p align="justify">We think cloud compute and storage providers will be functionally changed to just being providers of computers as a sharing economy, leading to users using their own &#39;always-on&#39; computers or  owning their own personal devices on cloud that are always connected and act like the user&#39;s digital counterpart.</p>
+
+<p align="justify">Decentralisation fundamentally changes the status quo in the software industry, tilting it to the favour of customers, optimizing their benefit over all else. With the opportunity to create a new ecosystem, a new set of protocols, abstractions and tools, this is an opportunity for improvement.</p>
+
+<p><br><br>
+<p style="font-size:12px">
+[1]   Tobin, James (12 June 2012). Great Projects: The Epic Story of the Building of America, from the Taming of the Mississippi to the Invention of the Internet. Simon and Schuster. ISBN 978-0-7432-1476-6.<br>
+[2]   Quittner, Joshua (29 March 1999). "Network Designer Tim Berners-Lee". Time Magazine. Archived from the original on 15 August 2007. Retrieved 17 May 2010. <i>"He wove the World Wide Web and created a mass medium for the 21st century. The World Wide Web is Berners-Lee's alone. He designed it. He set it loose it on the world. And he more than anyone else has fought to keep it an open, non-proprietary and free."</i><br>
+[3]   "ARPANET Maps 1969 to 1977". California State University, Dominguez Hills (CSUDH). 4 January 1978. Archived from the original on 19 April 2012. Retrieved 17 May 2012.<br>
+[4]   Introduction. (n.d.). Retrieved from https://oauth.net/about/introduction/<br>
+[5]    Harris, Michael (2 January 2015). "Book review: 'The Internet Is Not the Answer' by Andrew Keen". Washington Post. Archived from the original on 20 January 2015. Retrieved 25 January 2015.<br>
+[6]   Lin, Liu Yi, et al. "Association between social media use and depression among US young adults." Depression and anxiety 33.4 (2016): 323-331.<br>
+[7]    Kopfstein, Janus. "The Mission To Decentralize The Internet". The New Yorker. Condé Nast. Archived from the original on 13 December 2013. Retrieved 13 December 2013<br>
+[8]    Barkai, David (2001). Peer-to-peer computing : technologies for sharing and collaborating on the net. Hillsboro, OR: Intel Press. ISBN 978-0970284679. OCLC 49354877.<br>
+[9]    "Globally Distributed Content Delivery, by J. Dilley, B. Maggs, J. Parikh, H. Prokop, R. Sitaraman and B. Weihl, IEEE Internet Computing, Volume 6, Issue 5, November 2002" (PDF). Archived (PDF) from the original on 2017-08-09. Retrieved 2019-10-25.<br>
+[10]    Anderson, Janna, and Lee Rainie. "The future of well-being in a tech-saturated world." Pew Research Center (2018).<br></p>
+</p>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+        
+          <a href="1_Establishing_Consensus/1_TrstWeb-as-a-distributed-system/" title="The TrstWeb as a Distributed System" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                The TrstWeb as a Distributed System
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/application.808e90bb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      
+    
+  </body>
+</html>
